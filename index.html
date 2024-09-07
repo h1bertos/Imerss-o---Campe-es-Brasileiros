@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Campeões Brasileiros da História</title>
+</head>
+<body>
+    <!- No Header temos um classe container conforme sugestão do Gemini para inserir imagem ao lado do texto. Então, h1 e h2 estão juntos na coluna enquanto ao lado tem o logo da taça do Brasileirão -->
+    <header>
+        <div class="container">
+            <div>
+            <h1><b>CAMPEÕES BRASILEIROS DA HISTÓRIA</b></h1>
+            <h2>
+            Veja todos os campeões brasileiros desde 1971
+            </h2>
+            </div>
+        <img src="Taça_do_Campeonato_Brasileiro.png" alt="Logo PNG da taça do Brasileirão">
+    </div>
+    </header>
+    <main>
+        <!- Na parte principal, temos a região de pesquisa e o botão para pesquisar-->
+        <section>
+            <input type="text" placeholder="Digite o nome do time ou o ano que deseja saber" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 - Campeões do Brasileirão. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: humberto@campeoesbrasileiros.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
